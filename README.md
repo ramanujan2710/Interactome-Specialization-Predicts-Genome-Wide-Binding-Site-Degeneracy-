@@ -1,6 +1,6 @@
 # Interactome Specialization Predicts Genome-Wide Binding-Site Degeneracy in *Drosophila melanogaster* Transcription Factors
 
-This repository contains the complete, end-to-end analysis pipeline behind the manuscript *"Interactome Specialization Predicts Genome-Wide Binding-Site Degeneracy in Drosophila melanogaster Transcription Factors"* (working draft). It reproduces every reported number and figure directly from public STRING, JASPAR, phyloP, Ensembl, and FlyBase source files.
+This repository contains the complete, end-to-end analysis pipeline behind the manuscript *"Interactome Specialization Predicts Genome-Wide Binding-Site Degeneracy in Drosophila melanogaster Transcription Factors"* . It reproduces every reported number and figure directly from public STRING, JASPAR, phyloP, Ensembl, and FlyBase source files.
 
 ## What this shows
 
@@ -82,9 +82,6 @@ to regenerate the manuscript figures into `figures/`.
 - Robustness battery (Stage 14): tautology check against motif information content, Spearman vs. Pearson, outlier-trimming and winsorizing sensitivity, post-hoc power.
 - TF-TF assortativity (Stage 11): naive and degree-matched permutation nulls, with bin-count sensitivity.
 
-## License
-
-Add a license of your choosing (e.g. MIT) before publishing this repository publicly. No license is specified by default.
 
 ## Citation
 
